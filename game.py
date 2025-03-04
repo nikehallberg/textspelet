@@ -5,7 +5,7 @@ from optionrndm import all_activities
 class Game:
     def __init__(self, player, events):
         self.player = player
-        self.day = 3
+        self.day = 1
         self.time = GameTime()
         self.feeling = random.choice(['invigorated', 'refreshed', 'rejuvenated', 'energized', 'restored', 'renewed'])
         self.weather = random.choice(['raining', 'sunny', 'snowing', 'windy', 'cloudy', 'hailing'])
